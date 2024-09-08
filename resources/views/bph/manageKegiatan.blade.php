@@ -12,16 +12,16 @@
   <nav class="nav">
     <div>
         <a href="" class="nav_logo"> <img src="" alt=""
-                height="25px"><span class="nav_logo-name text-black">Admin</span></a>
+                height="25px"><span class="nav_logo-name text-black">UKM STIMATA</span></a>
         <div class="nav_list">
             <a href="" class="nav_link active rounded-end">
                 <i class='bx bx-grid-alt nav_icon'></i>
                 <span class="nav_name">Dashboard</span> </a>
             <a href="" class="nav_link"> <i class='bx bxs-t-shirt'></i> <span
-                    class="nav_name">Manage User</span>
+                    class="nav_name">Manage Anggota</span>
             </a>
-            <a href="" class="nav_link"> <i class='bx bx-notepad'></i> <span class="nav_name">Manage Laporan</span> </a>
-            <a href="" class="nav_link"> <i class='bx bx-timer'></i> <span class="nav_name">Log Activity</span> </a>
+            <a href="" class="nav_link"> <i class='bx bx-notepad'></i> <span class="nav_name">Manage Kas</span> </a>
+            <a href="" class="nav_link"> <i class='bx bx-timer'></i> <span class="nav_name">Manage Kegiatan</span> </a>
         </div>
     </div> <a href="" class="nav_link logout-btn rounded-end"> <i class='bx bx-log-out nav_icon'></i> <span
             class="nav_name">Log Out</span> </a>

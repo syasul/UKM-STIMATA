@@ -47,11 +47,24 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
+    public function bphUkms()
+    {
+        return $this->belongsToMany(Ukm::class, 'bph_ukm_ukm', 'bph_ukm_id', 'ukm_id')->withTimestamps();
+    }
+
+    // Relasi ke UKM (sebagai anggota)
     public function ukms()
     {
         return $this->belongsToMany(Ukm::class, 'ukm_user')->withTimestamps();
     }
 
+    // Relasi ke laporan yang dikirim oleh BPH UKM
+    public function reports()
+    {
+        return $this->hasMany(Reports::class, 'bph_ukm_id');
+    }
+
+    // Relasi ke log aktivitas
     public function logs()
     {
         return $this->hasMany(Logs::class);
